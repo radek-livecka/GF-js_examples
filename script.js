@@ -50,7 +50,7 @@ pozdrav("Honza")
 
 // $("div").text("hello world")
 
-let piv = [".first", ".second", ".fifth"]
+let piv = [".first", ".second", ".third", ".fifth"]
 
 $(".btn").click(() => {
     $(piv[0]).toggleClass("fifth");
@@ -58,3 +58,17 @@ $(".btn").click(() => {
 )
 
 console.log(piv[0])
+
+let names = ["Karel", "Pepa", "Ondra", "Jirka", "Honza"]
+
+names.push("Eulálie")
+
+if (names[1].length <= 4 ) {
+    console.log("Krátký");
+} else {
+    console.log("Dlouhý");
+};
+
+names.forEach(x => {
+    console.log(x)
+});
