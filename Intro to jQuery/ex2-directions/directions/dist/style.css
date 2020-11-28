@@ -1,0 +1,33 @@
+main {
+  width: 320px;
+  border: 7px solid #4285f4;
+}
+
+p {
+  margin: 0px;
+  padding: 40px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.N {
+  background: #E67676;
+  text-align: center;
+}
+
+.E {
+  background: #F2F062;
+  text-align: center;
+}
+
+.S {
+  background: #A9E6E6;
+  text-align: center;
+}
+
+.W {
+  background: #7692E4;
+  text-align: center;
+}
