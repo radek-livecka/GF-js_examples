@@ -1,0 +1,28 @@
+html {
+  font-family: serif;
+}
+
+h1 {
+  color: red;
+  font-size: 3rem;
+}
+
+h2 {
+  color: purple;
+  font-size: 2rem;
+}
+
+ol {
+  color: violet;
+  text-decoration: underline;
+  list-style-type: upper-roman;
+}
+
+.li-dif {
+  color: black;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: square;
+}
