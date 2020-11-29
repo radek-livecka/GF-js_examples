@@ -13,3 +13,13 @@ $("#click3").click(()=> {
     
 });
 
+/* $("#click4").click(()=> { 
+    $("button").css("background-color", $( "#input-val" ).val());
+    
+}); */
+
+$("#click4").one("click", function() { 
+    $("button").css("background-color", $( "#input-val" ).val());
+    
+});
+
