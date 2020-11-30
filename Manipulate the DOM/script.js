@@ -3,7 +3,7 @@ let names = ["Karel", "Pepa", "Jan", "Radek"]
 names.forEach(jmeno => {
     $("body").append(`<ul class="${jmeno}">${jmeno}</ul>`);
     if (jmeno === "Radek") {
-        $(`.Radek`).css("font-weight, strong");
+        $(document).css("font-weight", "strong");
     }
 });
 
