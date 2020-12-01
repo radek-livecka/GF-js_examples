@@ -1,15 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first web application</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-    
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="./script.js"></script>
+<body>
+    <div class="gallery">
+        <div class="main">
+            <div class="l arrow">
+                <img src="./images/arrow.svg" alt="left arrow" class="center" id="larrow">
+            </div>
+            <div class="photo">
+                <div class="img">
+                    <img src="" alt="" id="photo">
+                </div>
+                <div class="title">
+                    <h1 id="photo-title"></h1>
+                    <p id="photo-description"></p>
+                </div>
+            </div>
+            <div class="r arrow">
+                <img src="./images/arrow.svg" alt="right arrow" class="center" id="rarrow">
+            </div>
+        </div>
+                <div class="thumbnail"></div>
+        </div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="./script.js"></script>
 </body>
+
 </html>
