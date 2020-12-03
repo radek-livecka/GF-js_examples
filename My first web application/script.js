@@ -87,8 +87,9 @@ let loadPhoto = function (photoNumber) {
     $("#photo").attr("src", imagesData[photoNumber].photo);
     $('#photo-title').text(imagesData[photoNumber].title);
     $('#photo-description').text(imagesData[photoNumber].description);
-    $(`[data-number="${photoNumber}"]`).removeClass("thmb").addClass("thmbsel");
-    console.log(photoNumber);
+    // $(`[data-number="${photoNumber}"]`).addClass("active");
+    $("[data-number]").removeClass("active");
+    $(`[data-number="${photoNumber}"]`).addClass("active");
     
 };
 
