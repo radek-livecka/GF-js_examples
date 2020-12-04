@@ -51,3 +51,12 @@
 // řádek 74 a dál
    // $(".thumbnail").append(`<div class="thmb" data-number="4"><img id="4"></div>`);
     // $("#4").attr("src", imagesData[4].photo);
+
+// řádek 124 a dál
+// let leftArrow = function(){
+//     (keyCode || which) === 37;
+// };
+
+// let rightArrow = function(){
+//     (keyCode || which) === 39;
+// };
