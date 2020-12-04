@@ -151,7 +151,8 @@ $(".photo").hover(function(){
     $(".title").hide();
   });
 
-  let pToHide = $(this).attr("id");
+  let pToHide = $(this).data("p");
+  console.log(pToHide);
   
   $(".thmb").hover(function(){
     $(`.p-tmbh, [data-p="${pToHide}"]`).show();
