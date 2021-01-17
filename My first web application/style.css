@@ -1,13 +1,20 @@
 body{
     /* background-color:lightgrey; */
     background-image: linear-gradient(to right,grey, silver, grey);
+    /* display: grid;
+    place-items: center; */
     
+}
+
+.parent{
+    display: grid;
+    place-items: center;  
 }
 
 .gallery{
     width: 1000px;
     height: 600px;    
-    margin: 5% auto 5% auto;
+    /* margin: 5% auto 5% auto; */
     /* background-color: #fff; */
     /* justify-content: center;  */
     /* align-content: flex-start; */
